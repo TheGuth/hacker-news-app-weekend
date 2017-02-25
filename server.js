@@ -5,7 +5,6 @@ const {DATABASE_URL, PORT} = require('./config');
 
 mongoose.Promise = global.Promise;
 
-
 const app = express();
 app.use(bodyParser.json());
 
